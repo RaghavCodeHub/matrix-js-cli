@@ -1,0 +1,31 @@
+{
+  "name": "matrix-js-cli",
+  "version": "0.0.1",
+  "description": "Command line runner for matrix-js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "matrix": "./index.js"
+  },
+  "author": "Raghavendra Ravikumar <raghavendra.ravikumar@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "matrix-js": "^1.2.2",
+    "printj": "^1.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raghavgujjar/matrix-js-cli.git"
+  },
+  "keywords": [
+    "matrix",
+    "cli"
+  ],
+  "bugs": {
+    "url": "https://github.com/raghavgujjar/matrix-js-cli/issues"
+  },
+  "homepage": "https://github.com/raghavgujjar/matrix-js-cli#readme"
+}

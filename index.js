@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 const readline = require('readline');
+const prettyPrint = require('./lib/prettyPrint');
 let geval;
 global.matrix = require('matrix-js');
 
@@ -11,7 +12,7 @@ const rl = readline.createInterface({
 
 rl.on('line', (line) => {
   geval = eval;
-  console.log(geval(line));
+  prettyPrint(geval(line));
   rl.prompt();
 });
 

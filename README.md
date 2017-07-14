@@ -18,7 +18,7 @@ $ matrix
 ```bash
 $ matrix
 > var a = matrix([[1,2],[3,4]]);
-undefined
 > a();
-[[1,2],[3,4]]
+         1         2
+         3         4
 ```

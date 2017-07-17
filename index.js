@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+'use strict';
+
 const readline = require('readline');
 const prettyPrint = require('./lib/prettyPrint');
 let geval;
